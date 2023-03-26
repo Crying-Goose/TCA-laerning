@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C929B99629D090380009BF8D /* WristApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C929B99529D090380009BF8D /* WristApp.swift */; };
+		C929B99829D090380009BF8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C929B99729D090380009BF8D /* ContentView.swift */; };
+		C929B99A29D090390009BF8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C929B99929D090390009BF8D /* Assets.xcassets */; };
+		C929B99D29D090390009BF8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C929B99C29D090390009BF8D /* Preview Assets.xcassets */; };
+		C929B9A729D0903A0009BF8D /* WristTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C929B9A629D0903A0009BF8D /* WristTests.swift */; };
+		C929B9B129D0903A0009BF8D /* WristUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C929B9B029D0903A0009BF8D /* WristUITests.swift */; };
+		C929B9B329D0903A0009BF8D /* WristUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C929B9B229D0903A0009BF8D /* WristUITestsLaunchTests.swift */; };
+		C9409E8D29D0A1BA0099D92F /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = C9409E8C29D0A1BA0099D92F /* .swiftlint.yml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C929B9A329D0903A0009BF8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C929B98A29D090380009BF8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C929B99129D090380009BF8D;
+			remoteInfo = Wrist;
+		};
+		C929B9AD29D0903A0009BF8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C929B98A29D090380009BF8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C929B99129D090380009BF8D;
+			remoteInfo = Wrist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C929B99229D090380009BF8D /* Wrist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wrist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C929B99529D090380009BF8D /* WristApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristApp.swift; sourceTree = "<group>"; };
+		C929B99729D090380009BF8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C929B99929D090390009BF8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C929B99C29D090390009BF8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C929B9A229D0903A0009BF8D /* WristTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WristTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C929B9A629D0903A0009BF8D /* WristTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristTests.swift; sourceTree = "<group>"; };
+		C929B9AC29D0903A0009BF8D /* WristUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WristUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C929B9B029D0903A0009BF8D /* WristUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristUITests.swift; sourceTree = "<group>"; };
+		C929B9B229D0903A0009BF8D /* WristUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C929B9BF29D090AF0009BF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C9409E8C29D0A1BA0099D92F /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C929B98F29D090380009BF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C929B99F29D0903A0009BF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C929B9A929D0903A0009BF8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C929B98929D090380009BF8D = {
+			isa = PBXGroup;
+			children = (
+				C9409E8C29D0A1BA0099D92F /* .swiftlint.yml */,
+				C929B99429D090380009BF8D /* Wrist */,
+				C929B9A529D0903A0009BF8D /* WristTests */,
+				C929B9AF29D0903A0009BF8D /* WristUITests */,
+				C929B99329D090380009BF8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C929B99329D090380009BF8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C929B99229D090380009BF8D /* Wrist.app */,
+				C929B9A229D0903A0009BF8D /* WristTests.xctest */,
+				C929B9AC29D0903A0009BF8D /* WristUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C929B99429D090380009BF8D /* Wrist */ = {
+			isa = PBXGroup;
+			children = (
+				C929B9BF29D090AF0009BF8D /* Info.plist */,
+				C929B99529D090380009BF8D /* WristApp.swift */,
+				C929B99729D090380009BF8D /* ContentView.swift */,
+				C929B99929D090390009BF8D /* Assets.xcassets */,
+				C929B99B29D090390009BF8D /* Preview Content */,
+			);
+			path = Wrist;
+			sourceTree = "<group>";
+		};
+		C929B99B29D090390009BF8D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C929B99C29D090390009BF8D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C929B9A529D0903A0009BF8D /* WristTests */ = {
+			isa = PBXGroup;
+			children = (
+				C929B9A629D0903A0009BF8D /* WristTests.swift */,
+			);
+			path = WristTests;
+			sourceTree = "<group>";
+		};
+		C929B9AF29D0903A0009BF8D /* WristUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C929B9B029D0903A0009BF8D /* WristUITests.swift */,
+				C929B9B229D0903A0009BF8D /* WristUITestsLaunchTests.swift */,
+			);
+			path = WristUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C929B99129D090380009BF8D /* Wrist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C929B9B629D0903A0009BF8D /* Build configuration list for PBXNativeTarget "Wrist" */;
+			buildPhases = (
+				C9409E8B29D0A1830099D92F /* SwiftLint Script */,
+				C929B98E29D090380009BF8D /* Sources */,
+				C929B98F29D090380009BF8D /* Frameworks */,
+				C929B99029D090380009BF8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wrist;
+			packageProductDependencies = (
+			);
+			productName = Wrist;
+			productReference = C929B99229D090380009BF8D /* Wrist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C929B9A129D0903A0009BF8D /* WristTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C929B9B929D0903A0009BF8D /* Build configuration list for PBXNativeTarget "WristTests" */;
+			buildPhases = (
+				C929B99E29D0903A0009BF8D /* Sources */,
+				C929B99F29D0903A0009BF8D /* Frameworks */,
+				C929B9A029D0903A0009BF8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C929B9A429D0903A0009BF8D /* PBXTargetDependency */,
+			);
+			name = WristTests;
+			productName = WristTests;
+			productReference = C929B9A229D0903A0009BF8D /* WristTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C929B9AB29D0903A0009BF8D /* WristUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C929B9BC29D0903A0009BF8D /* Build configuration list for PBXNativeTarget "WristUITests" */;
+			buildPhases = (
+				C929B9A829D0903A0009BF8D /* Sources */,
+				C929B9A929D0903A0009BF8D /* Frameworks */,
+				C929B9AA29D0903A0009BF8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C929B9AE29D0903A0009BF8D /* PBXTargetDependency */,
+			);
+			name = WristUITests;
+			productName = WristUITests;
+			productReference = C929B9AC29D0903A0009BF8D /* WristUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C929B98A29D090380009BF8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C929B99129D090380009BF8D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C929B9A129D0903A0009BF8D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C929B99129D090380009BF8D;
+					};
+					C929B9AB29D0903A0009BF8D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C929B99129D090380009BF8D;
+					};
+				};
+			};
+			buildConfigurationList = C929B98D29D090380009BF8D /* Build configuration list for PBXProject "Wrist" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C929B98929D090380009BF8D;
+			packageReferences = (
+				C92889C629D0A594009A8AB5 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+				C92889C729D0A5ED009A8AB5 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			productRefGroup = C929B99329D090380009BF8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C929B99129D090380009BF8D /* Wrist */,
+				C929B9A129D0903A0009BF8D /* WristTests */,
+				C929B9AB29D0903A0009BF8D /* WristUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C929B99029D090380009BF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9409E8D29D0A1BA0099D92F /* .swiftlint.yml in Resources */,
+				C929B99D29D090390009BF8D /* Preview Assets.xcassets in Resources */,
+				C929B99A29D090390009BF8D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C929B9A029D0903A0009BF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C929B9AA29D0903A0009BF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9409E8B29D0A1830099D92F /* SwiftLint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftLint Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C929B98E29D090380009BF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C929B99829D090380009BF8D /* ContentView.swift in Sources */,
+				C929B99629D090380009BF8D /* WristApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C929B99E29D0903A0009BF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C929B9A729D0903A0009BF8D /* WristTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C929B9A829D0903A0009BF8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C929B9B329D0903A0009BF8D /* WristUITestsLaunchTests.swift in Sources */,
+				C929B9B129D0903A0009BF8D /* WristUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C929B9A429D0903A0009BF8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C929B99129D090380009BF8D /* Wrist */;
+			targetProxy = C929B9A329D0903A0009BF8D /* PBXContainerItemProxy */;
+		};
+		C929B9AE29D0903A0009BF8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C929B99129D090380009BF8D /* Wrist */;
+			targetProxy = C929B9AD29D0903A0009BF8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C929B9B429D0903A0009BF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C929B9B529D0903A0009BF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C929B9B729D0903A0009BF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wrist/Preview Content\"";
+				DEVELOPMENT_TEAM = 93TN67663A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wrist/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.newability.apps.wrist.Wrist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C929B9B829D0903A0009BF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wrist/Preview Content\"";
+				DEVELOPMENT_TEAM = 93TN67663A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wrist/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.newability.apps.wrist.Wrist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C929B9BA29D0903A0009BF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93TN67663A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.newability.apps.wrist.WristTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wrist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wrist";
+			};
+			name = Debug;
+		};
+		C929B9BB29D0903A0009BF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93TN67663A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.newability.apps.wrist.WristTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wrist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wrist";
+			};
+			name = Release;
+		};
+		C929B9BD29D0903A0009BF8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93TN67663A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.newability.apps.wrist.WristUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wrist;
+			};
+			name = Debug;
+		};
+		C929B9BE29D0903A0009BF8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93TN67663A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.newability.apps.wrist.WristUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wrist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C929B98D29D090380009BF8D /* Build configuration list for PBXProject "Wrist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C929B9B429D0903A0009BF8D /* Debug */,
+				C929B9B529D0903A0009BF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C929B9B629D0903A0009BF8D /* Build configuration list for PBXNativeTarget "Wrist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C929B9B729D0903A0009BF8D /* Debug */,
+				C929B9B829D0903A0009BF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C929B9B929D0903A0009BF8D /* Build configuration list for PBXNativeTarget "WristTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C929B9BA29D0903A0009BF8D /* Debug */,
+				C929B9BB29D0903A0009BF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C929B9BC29D0903A0009BF8D /* Build configuration list for PBXNativeTarget "WristUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C929B9BD29D0903A0009BF8D /* Debug */,
+				C929B9BE29D0903A0009BF8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C92889C629D0A594009A8AB5 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+		C92889C729D0A5ED009A8AB5 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = C929B98A29D090380009BF8D /* Project object */;
+}

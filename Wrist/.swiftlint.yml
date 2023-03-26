@@ -1,0 +1,21 @@
+force_cast: warning # implicitly
+force_try:
+  severity: warning # explicitly
+
+excluded:
+  - MLCenter/Reducers/AppReducer.swift
+  - MLCenter/Utilities/Persistence/Persistence.swift # 개발 후 해제 예정
+  
+line_length: 99 # 라인 글자 수 제한
+file_length: # 파일 라인 수 제한
+  warning: 500
+  error: 1200
+function_body_length: 100 # 함수 라인 수 제한
+  
+disabled_rules:
+  - todo # 추후 개발이 진전되면 해제
+  - fixme # 추후 개발이 진전되면 해제
+  - opening_brace # 중괄호는 앞뒤 공백 여부
+  - nesting # 객체 중첩 선언 여부
+  - cyclomatic_complexity # 함수 복잡성 (enum case 10개 미만 허용)
+
