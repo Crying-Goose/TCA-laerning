@@ -15,6 +15,9 @@
 		C929B9B129D0903A0009BF8D /* WristUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C929B9B029D0903A0009BF8D /* WristUITests.swift */; };
 		C929B9B329D0903A0009BF8D /* WristUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C929B9B229D0903A0009BF8D /* WristUITestsLaunchTests.swift */; };
 		C9409E8D29D0A1BA0099D92F /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = C9409E8C29D0A1BA0099D92F /* .swiftlint.yml */; };
+		C9A2C9BF29D32A7D00C29AC6 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = C9A2C9BE29D32A7D00C29AC6 /* ComposableArchitecture */; };
+		C9A2C9C329D32F1500C29AC6 /* WatchClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A2C9C229D32F1500C29AC6 /* WatchClient.swift */; };
+		C9A2C9C929D33BDC00C29AC6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9A2C9C829D33BDC00C29AC6 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +48,9 @@
 		C929B9AC29D0903A0009BF8D /* WristUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WristUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C929B9B029D0903A0009BF8D /* WristUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristUITests.swift; sourceTree = "<group>"; };
 		C929B9B229D0903A0009BF8D /* WristUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C929B9BF29D090AF0009BF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C9409E8C29D0A1BA0099D92F /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		C9A2C9C229D32F1500C29AC6 /* WatchClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchClient.swift; sourceTree = "<group>"; };
+		C9A2C9C829D33BDC00C29AC6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A2C9BF29D32A7D00C29AC6 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +87,7 @@
 				C929B9A529D0903A0009BF8D /* WristTests */,
 				C929B9AF29D0903A0009BF8D /* WristUITests */,
 				C929B99329D090380009BF8D /* Products */,
+				C9A2C9BD29D32A7D00C29AC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +104,12 @@
 		C929B99429D090380009BF8D /* Wrist */ = {
 			isa = PBXGroup;
 			children = (
-				C929B9BF29D090AF0009BF8D /* Info.plist */,
 				C929B99529D090380009BF8D /* WristApp.swift */,
-				C929B99729D090380009BF8D /* ContentView.swift */,
-				C929B99929D090390009BF8D /* Assets.xcassets */,
+				C9A2C9C129D32E7600C29AC6 /* Clients */,
+				C9A2C9BA29D328B500C29AC6 /* Reducers */,
+				C9A2C9B829D3274E00C29AC6 /* Views */,
+				C9A2C9BC29D3290D00C29AC6 /* Resources */,
+				C9A2C9BB29D328E400C29AC6 /* Repositories */,
 				C929B99B29D090390009BF8D /* Preview Content */,
 			);
 			path = Wrist;
@@ -132,6 +140,52 @@
 			path = WristUITests;
 			sourceTree = "<group>";
 		};
+		C9A2C9B829D3274E00C29AC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C929B99729D090380009BF8D /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C9A2C9BA29D328B500C29AC6 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		C9A2C9BB29D328E400C29AC6 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		C9A2C9BC29D3290D00C29AC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9A2C9C829D33BDC00C29AC6 /* Info.plist */,
+				C929B99929D090390009BF8D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C9A2C9BD29D32A7D00C29AC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9A2C9C129D32E7600C29AC6 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				C9A2C9C229D32F1500C29AC6 /* WatchClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,6 +204,7 @@
 			);
 			name = Wrist;
 			packageProductDependencies = (
+				C9A2C9BE29D32A7D00C29AC6 /* ComposableArchitecture */,
 			);
 			productName = Wrist;
 			productReference = C929B99229D090380009BF8D /* Wrist.app */;
@@ -243,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A2C9C929D33BDC00C29AC6 /* Info.plist in Resources */,
 				C9409E8D29D0A1BA0099D92F /* .swiftlint.yml in Resources */,
 				C929B99D29D090390009BF8D /* Preview Assets.xcassets in Resources */,
 				C929B99A29D090390009BF8D /* Assets.xcassets in Resources */,
@@ -292,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C929B99829D090380009BF8D /* ContentView.swift in Sources */,
+				C9A2C9C329D32F1500C29AC6 /* WatchClient.swift in Sources */,
 				C929B99629D090380009BF8D /* WristApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,7 +511,7 @@
 				DEVELOPMENT_TEAM = 93TN67663A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Wrist/Info.plist;
+				INFOPLIST_FILE = Wrist/Resources/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -486,7 +543,7 @@
 				DEVELOPMENT_TEAM = 93TN67663A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Wrist/Info.plist;
+				INFOPLIST_FILE = Wrist/Resources/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -642,6 +699,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9A2C9BE29D32A7D00C29AC6 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C92889C729D0A5ED009A8AB5 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C929B98A29D090380009BF8D /* Project object */;
 }
